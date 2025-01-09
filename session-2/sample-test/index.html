@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Giphy Search</title>
+		<style>
+			.container {
+				max-width: 800px;
+				margin: 0 auto;
+				padding: 20px;
+			}
+			.search-box {
+				text-align: center;
+				margin-bottom: 20px;
+			}
+			.card {
+				margin-bottom: 20px;
+				border: 1px solid #ddd;
+				border-radius: 8px;
+				overflow: hidden;
+			}
+			.card img {
+				width: 100%;
+				display: block;
+			}
+			.comment-box {
+				padding: 10px;
+			}
+			.comment-box textarea {
+				width: 100%;
+				padding: 8px;
+				margin-bottom: 8px;
+			}
+		</style>
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="search-box">
+				<input
+					type="text"
+					id="input"
+					placeholder="Search for GIFs..."
+				/>
+				<button onclick="submit()">Submit</button>
+			</div>
+			<div id="container"></div>
+			<div id="observer-target"></div>
+		</div>
+	</body>
+</html>
