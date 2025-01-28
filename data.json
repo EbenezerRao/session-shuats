@@ -31,6 +31,17 @@
 			"description": "Deep dive into advanced JavaScript + HTML + CSS concepts",
 			"path": "session-2/index.html",
 			"recordingUrl": "https://drive.google.com/file/d/1rv1ArJjJSd6Nf3OY95hUnrGKmdET5fgR/view?usp=drive_link"
+		},
+		{
+			"id": 4,
+			"title": "Session 3",
+			"badge": {
+				"text": "HTML and CSS",
+				"color": "cyan"
+			},
+			"description": "Basics of Front-End Development",
+			"path": "session-3/index.html",
+			"recordingUrl": "https://drive.google.com/file/d/1vnYdjuBrcvY2Fq9uI1QeVoaxLwppCAPS/view"
 		}
 	],
 	"copyright": "© 2025 All rights reserved. Developed by <a href='https://github.com/agamya-samuel'>Agamya Samuel</a>",
