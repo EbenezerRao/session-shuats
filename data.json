@@ -37,7 +37,7 @@
 			"title": "Session 3",
 			"badge": {
 				"text": "HTML and CSS",
-				"color": "cyan"
+				"color": "orange"
 			},
 			"description": "Basics of Front-End Development",
 			"path": "session-3/index.html",
